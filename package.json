@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start-dev": "node index.js | bunyan",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eetu Sutinen, eetu.sutinen@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "koa": "^1.2.4"
+    "bunyan": "^1.8.1",
+    "koa": "^1.2.4",
+    "lodash": "^4.16.2"
   }
 }
