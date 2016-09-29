@@ -1,5 +1,5 @@
 const koa = require('koa');
-const statusCodes = require('./src/status-codes');
+const statusCodes = require('./status-codes');
 const bunyan = require('bunyan');
 
 const app = koa();
@@ -12,13 +12,15 @@ const loggerStream = {
   }
 }
 
-app.use(function *() {
+app.use(function *(next) {
   // log all requests
   log.info({req: this.request});
+  yield next;
 });
 
 app.use(function *() {
   const statusCode = statusCodes.getRandomStatusCode();
+  log.info('return client statusCode', statusCode);
   this.response.status = statusCode;
 });
 

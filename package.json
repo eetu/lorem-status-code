@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "start-dev": "node index.js | bunyan",
+    "start": "node ./src/index.js",
+    "start-dev": "nodemon --watch ./src -e js ./src/index.js | bunyan",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Eetu Sutinen, eetu.sutinen@gmail.com",
@@ -14,5 +14,8 @@
     "bunyan": "^1.8.1",
     "koa": "^1.2.4",
     "lodash": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.2"
   }
 }
