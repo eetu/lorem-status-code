@@ -1,6 +1,6 @@
 import * as http from 'http';
 
-import { getRandomStatusCode } from './error-codes';
+import { getRandomStatusCode } from './status-codes';
 import logger from './util/logger';
 
 http
