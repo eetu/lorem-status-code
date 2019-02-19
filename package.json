@@ -14,7 +14,8 @@
   "author": "Eetu Sutinen, eetu.sutinen@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "typescript": "^3.3.3"
+    "typescript": "^3.3.3",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "@types/node": "^11.9.4",
