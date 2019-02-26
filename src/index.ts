@@ -3,7 +3,7 @@ import * as http from 'http';
 import { getRandomStatusCode } from './status-codes';
 import logger from './util/logger';
 
-http
+const server = http
   .createServer((req, res) => {
     const statusCode = getRandomStatusCode();
     logger.info(`${req.method} ${req.url} ${JSON.stringify(req.headers)} ${statusCode}`);
@@ -11,3 +11,17 @@ http
     res.end();
   })
   .listen(process.env.PORT || 3000);
+
+const shutdown = () => {
+  logger.info('shutdown...');
+  server.close();
+  process.exit();
+};
+
+process.on('SIGTERM', async () => {
+  shutdown();
+});
+
+process.on('SIGINT', async () => {
+  shutdown();
+});
