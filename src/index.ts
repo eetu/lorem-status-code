@@ -12,11 +12,11 @@ const server = http
   })
   .listen(process.env.PORT || 3000);
 
-const shutdown = () => {
+function shutdown() {
   logger.info('shutdown...');
   server.close();
   process.exit();
-};
+}
 
 process.on('SIGTERM', async () => {
   shutdown();

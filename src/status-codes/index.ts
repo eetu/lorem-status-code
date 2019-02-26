@@ -1,8 +1,8 @@
-import clientError from './codes/client-error.json';
-import information from './codes/information.json';
-import redirection from './codes/redirection.json';
-import serverError from './codes/server-error.json';
-import success from './codes/success.json';
+import clientError from './client-error.json';
+import information from './information.json';
+import redirection from './redirection.json';
+import serverError from './server-error.json';
+import success from './success.json';
 
 const allStatusCodes = []
   .concat(information, success, redirection, clientError, serverError)
