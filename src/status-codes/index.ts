@@ -1,10 +1,15 @@
-import clientError from './client-error.json';
-import information from './information.json';
-import redirection from './redirection.json';
-import serverError from './server-error.json';
-import success from './success.json';
+import clientError from "./client-error";
+import information from "./information";
+import redirection from "./redirection";
+import serverError from "./server-error";
+import success from "./success";
 
-const allStatusCodes = []
+export type StatusCode = {
+  code: number;
+  name: string;
+};
+
+const allStatusCodes: number[] = ([] as StatusCode[])
   .concat(information, success, redirection, clientError, serverError)
   .map((sc) => sc.code);
 

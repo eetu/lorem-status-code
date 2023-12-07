@@ -1,7 +1,0 @@
-{
-  "name": "Lorem status code",
-  "description": "Server that returns random status code to any request.",
-  "repository": "https://github.com/eetu/lorem-status-code",
-  "logo": "https://picsum.photos/128/128?random",
-  "keywords": ["node", "status"]
-}
