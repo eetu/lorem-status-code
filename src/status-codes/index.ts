@@ -1,8 +1,8 @@
-import clientError from "./client-error";
-import information from "./information";
-import redirection from "./redirection";
-import serverError from "./server-error";
-import success from "./success";
+import clientError from "./client-error.js";
+import information from "./information.js";
+import redirection from "./redirection.js";
+import serverError from "./server-error.js";
+import success from "./success.js";
 
 export type StatusCode = {
   code: number;

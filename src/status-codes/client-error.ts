@@ -1,4 +1,4 @@
-import { StatusCode } from ".";
+import { StatusCode } from "./index.js";
 
 const clientError: StatusCode[] = [
   { code: 400, name: "BadRequest" },

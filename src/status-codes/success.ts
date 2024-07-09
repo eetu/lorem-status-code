@@ -1,4 +1,4 @@
-import { StatusCode } from ".";
+import { StatusCode } from "./index.js";
 
 const success: StatusCode[] = [
   { code: 200, name: "OK" },

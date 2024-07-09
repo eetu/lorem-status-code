@@ -1,7 +1,7 @@
 import * as http from "node:http";
 
-import { getRandomStatusCode } from "./status-codes";
-import logger from "./util/logger";
+import { getRandomStatusCode } from "./status-codes/index.js";
+import logger from "./util/logger.js";
 
 const server = http
   .createServer((req, res) => {

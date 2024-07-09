@@ -1,4 +1,4 @@
-import { StatusCode } from ".";
+import { StatusCode } from "./index.js";
 
 const information: StatusCode[] = [
   { code: 100, name: "Continue" },

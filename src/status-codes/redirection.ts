@@ -1,4 +1,4 @@
-import { StatusCode } from ".";
+import { StatusCode } from "./index.js";
 
 const redirection: StatusCode[] = [
   { code: 300, name: "MultipleChoices" },

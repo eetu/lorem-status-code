@@ -1,4 +1,4 @@
-import { StatusCode } from ".";
+import { StatusCode } from "./index.js";
 
 const serverError: StatusCode[] = [
   { code: 500, name: "InternalServerError" },
