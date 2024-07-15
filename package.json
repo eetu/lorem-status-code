@@ -19,7 +19,7 @@
   "author": "Eetu Sutinen, eetu.sutinen@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "winston": "^3.11.0"
+    "winston": "^3.13.1"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
