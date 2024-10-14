@@ -24,7 +24,7 @@
   "devDependencies": {
     "@tsconfig/node20": "^20.1.2",
     "@types/eslint": "^9",
-    "@types/jest": "^29.5.11",
+    "@types/jest": "^29.5.13",
     "@types/node": "^22.7.5",
     "eslint": "^9.12.0",
     "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.0.0",
