@@ -30,7 +30,7 @@
     "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.0.0",
     "jest": "^30.0.0",
     "nodemon": "^3.1.10",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "prettier-config": "https://github.com/eetu/prettier-config#1.0.0",
     "ts-jest": "^29.4.0",
     "ts-node": "^10.9.1",
