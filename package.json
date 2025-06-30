@@ -28,7 +28,7 @@
     "@types/node": "^24.0.7",
     "eslint": "^9.29.0",
     "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.0.0",
-    "jest": "^30.0.2",
+    "jest": "^30.0.3",
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
     "prettier-config": "https://github.com/eetu/prettier-config#1.0.0",
