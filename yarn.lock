@@ -1511,12 +1511,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^24.4.0":
-  version: 24.4.0
-  resolution: "@types/node@npm:24.4.0"
+"@types/node@npm:^24.7.0":
+  version: 24.7.0
+  resolution: "@types/node@npm:24.7.0"
   dependencies:
-    undici-types: "npm:~7.11.0"
-  checksum: 10/8ed3a165f80f642bfffebbf416b0bcc18e36e0661670e3baf13daa76ca3a08031edb50f292dba351cc411276fece0ef2d273a5a37a214ba487815f89e6381b1f
+    undici-types: "npm:~7.14.0"
+  checksum: 10/db0b77e9b132906cdf0350661df660c970e924093ccaa781472d61bc5c448f3d15514b15f55b4df6827254a041aad2418339fe00d45ef10687557ffc0f026d47
   languageName: node
   linkType: hard
 
@@ -4155,7 +4155,7 @@ __metadata:
     "@tsconfig/node20": "npm:^20.1.6"
     "@types/eslint": "npm:^9"
     "@types/jest": "npm:^30.0.0"
-    "@types/node": "npm:^24.4.0"
+    "@types/node": "npm:^24.7.0"
     eslint: "npm:^9.36.0"
     eslint-config-node: "https://github.com/eetu/eslint-config-node#2.0.0"
     jest: "npm:^30.2.0"
@@ -5453,10 +5453,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~7.11.0":
-  version: 7.11.0
-  resolution: "undici-types@npm:7.11.0"
-  checksum: 10/0cb7230eb4f60f1080aafbee7b4a583dd42242e93054500aff60cd4665574f39846ffe8ae9f0cc38916fffc912d259bd220ebe40fc0716cfe332e9686950fb95
+"undici-types@npm:~7.14.0":
+  version: 7.14.0
+  resolution: "undici-types@npm:7.14.0"
+  checksum: 10/0f8709b21437697af35801e33bddbe9992e0cf1771959c41850b1946f63822b825e03ce99f44bf19e4f5c3ccc5166e0be59f541565c36ce86163dc2c5870bc62
   languageName: node
   linkType: hard
 
