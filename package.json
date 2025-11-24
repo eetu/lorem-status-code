@@ -22,7 +22,7 @@
     "winston": "^3.18.3"
   },
   "devDependencies": {
-    "@tsconfig/node20": "^20.1.6",
+    "@tsconfig/node20": "^20.1.8",
     "@types/eslint": "^9",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.10.1",
