@@ -25,7 +25,7 @@
     "@tsconfig/node20": "^20.1.8",
     "@types/eslint": "^9",
     "@types/jest": "^30.0.0",
-    "@types/node": "^25.0.6",
+    "@types/node": "^25.0.9",
     "eslint": "^9.39.2",
     "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.0.0",
     "jest": "^30.2.0",
